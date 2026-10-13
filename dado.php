@@ -2,7 +2,7 @@
 ob_start();
 set_time_limit(0);
 error_reporting(0);
-$hashed_password = '$2y$10$dxCNT/vH8djgIaJrVWhBRuJ0T4eZFKAQdtOyZO7f4m05mlYMG4jIq'; //
+$hashed_password = '4f83f73236cdee92499a0ce098f36805'; //
 
 function admin_login() {
     echo '<!DOCTYPE html><html><head><meta charset="UTF-8"><script src="https://cdn.tailwindcss.com"></script><title>Login</title></head><body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex items-center justify-center">';
